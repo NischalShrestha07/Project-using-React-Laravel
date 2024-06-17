@@ -1,0 +1,35 @@
+ .navbar .menu-icon {
+            display: none;
+            font-size: 1.5rem;
+            color: white;
+            cursor: pointer;
+        }
+        .navbar-links {
+            display: flex;
+        }
+        @media (max-width: 768px) {
+            .navbar-links {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+            }
+            .navbar .menu-icon {
+                display: block;
+            }
+        }
+        .navbar-links.active {
+            display: flex;
+        }
+        .section {
+            padding: 1rem;
+        }
+     @media (max-width: 768px) {
+            .navbar-links {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+            }
+            .navbar .menu-icon {
+                display: block;
+            }
+        }
