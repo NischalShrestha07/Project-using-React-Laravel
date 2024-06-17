@@ -19,16 +19,18 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/navbar' element={<Navbar />} />
-        <Route path='/createpost' element={<CreatePost />} />
-        <Route path='/readpost' element={<ReadPost />} />
-        <Route path='/updatepost' element={<UpdatePost />} />
-        <Route path='/deletepost' element={<DeletePost />} />
-        <Route path='/login' element={<Login />} />
+      <Switch>
 
-      </Routes>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/navbar' element={<Navbar />} />
+          <Route path='/createpost' element={<CreatePost />} />
+          <Route path='/readpost' element={<ReadPost />} />
+          <Route path='/updatepost' element={<UpdatePost />} />
+          <Route path='/deletepost' element={<DeletePost />} />
+          <Route path='/login' element={<Login onLogin={handleLogin} />} />
+        </Routes>
+      </Switch>
     </BrowserRouter>
   )
 }

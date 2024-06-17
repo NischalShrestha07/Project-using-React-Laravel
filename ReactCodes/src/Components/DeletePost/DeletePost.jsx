@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../Navbar/Navbar'
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
 const DeletePost = () => {
+
     const [postId, setPostId] = useState('');
 
     const handleDelete = (e) => {

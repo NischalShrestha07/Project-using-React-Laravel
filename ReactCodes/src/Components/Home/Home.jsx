@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar'
 import './Home.css'
 
 const Home = () => {
+
     const articles = [
         {
             id: 1,
@@ -16,10 +17,16 @@ const Home = () => {
             image: 'https://via.placeholder.com/600x400',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae vehicula elit. Phasellus tempus.'
         },
+        {
+            id: 3,
+            title: 'Added to Potal',
+            content: 'hello namstey jojolappa be happy keep going. '
+        },
     ];
+
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <header className="header">
                 <h1>Welcome to NewsPortalWebsite</h1>
             </header>

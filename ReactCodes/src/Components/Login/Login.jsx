@@ -1,20 +1,20 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
 const Login = ({ onLogin }) => {
-    /**  const [username, setUsername] = useState('');
+    const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
     const handleLogin = (e) => {
         e.preventDefault();
-        // This is a dummy login logic, replace with real authentication
+
         if (username === 'admin' && password === 'password') {
             onLogin();
         } else {
             alert('Invalid credentials');
         }
-    }; */
+    };
     return (
         <div>
             <Navbar />

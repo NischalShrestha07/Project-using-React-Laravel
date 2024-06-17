@@ -9,6 +9,7 @@ const CreatePost = () => {
         e.preventDefault();
         console.log('Post created:', { title, content });
     };
+
     return (
 
         <div>

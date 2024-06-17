@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 
 const ReadPost = () => {
+
     const articles = [
         {
             id: 1,
@@ -19,7 +20,7 @@ const ReadPost = () => {
 
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div className="container">
                 <h2>Read Posts</h2>
                 <div className="main-content">
@@ -31,7 +32,8 @@ const ReadPost = () => {
                         </div>
                     ))}
                 </div>
-            </div>        </div>
+            </div>
+        </div>
     )
 }
 

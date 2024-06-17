@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../Navbar/Navbar'
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
 const UpdatePost = () => {
     const [postId, setPostId] = useState('');
