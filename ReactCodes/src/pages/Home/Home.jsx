@@ -1,12 +1,13 @@
 import React from 'react'
 import './Home.css'
 import Navbar from '../Navbar/Navbar'
+import HomeComp from '../../HomeComp/HomeComp'
 
 const Home = () => {
     return (
         <div>
             <Navbar />
-            Home Blog
+            <HomeComp />
         </div>
     )
 }

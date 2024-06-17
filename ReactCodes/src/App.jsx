@@ -9,7 +9,7 @@ import ReadPost from './Components/ReadPost/ReadPost'
 import UpdatePost from './Components/UpdatePost/UpdatePost'
 import DeletePost from './Components/DeletePost/DeletePost'
 import Navbar from './Components/Navbar/Navbar'
-
+import './App.css'
 const App = () => {
 
   return (

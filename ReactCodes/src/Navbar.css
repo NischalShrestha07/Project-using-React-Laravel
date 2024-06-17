@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 2rem; /* Increase padding for more space */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.navbar .left, .navbar .right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    /* margin-right: 2rem; */
+    margin-right: 5rem;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 1rem; 
+}
+
+.right {
+    margin-left: auto; 
+}
